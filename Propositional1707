@@ -1,0 +1,9 @@
+(A,B)=[trigram(A) U trigram(B)]
+whileTrue
+do Choose a new pair of clauses z1 and z2
+if no new pair exists
+then return 
+z<--------------------Resolve(z1,z2)
+if Z={}
+then return False
+Else z<----------z U  {A}
